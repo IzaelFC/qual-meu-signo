@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40%;
+}
+
+h1 {
+    color: orange;
+}
+
+p {
+    color: white;
+}
+
+button {
+    color: orange;
+    background-color: rgb(2, 72, 2);
+    border-radius: 5px;
+    border-color: orange;
+}
+
+input {
+    color: orange;
+    background-color: rebeccapurple;
+}
+
+span {
+    color: orange;
+}
+
+.page {
+    position: relative;
+}
