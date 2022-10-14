@@ -37,6 +37,7 @@ function nomeSigno($dia, $mes){
     
         //Faz a comparação das datas para pegar o valor correspondente e escrever na página
         if($mes == $mes1 && $dia >= $dia1 || $mes == $mes2 && $dia <= $dia2){
+	    echo '<title>' . $signo->signoNome . '</title>';
             echo '<div class="page">';
             
             echo '<h1>Seu signo é: ' . $signo->signoNome . '</h1>';
